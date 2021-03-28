@@ -12,12 +12,12 @@ p{
 */
 body{
  font-family: cursive;
- 
+ text-align: center;
 }
 div{
 border: 15px outset;
    text-align: center;
-  
+/*  
 }
 #col{
     column-count: 2; 
@@ -38,3 +38,4 @@ em{
     display: block;
     border: 1px solid red;
     }
+    */
