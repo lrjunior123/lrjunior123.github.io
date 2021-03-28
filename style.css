@@ -1,68 +1,40 @@
-:root{
-    --cor-fundo-destaque: rgb(184, 98, 1);
-    --cor-frente-destaque: #fff;
-    --espacamento-padrao: 0.5rem;
-    --fonte-family-padrao: Arial, Helvetica, sans-serif;
+h1{
+    background-color: springgreen;
+    color:red;
+    text-align: center;
 }
-
-h1 {
-    color: var(--cor-frente-destaque);
-    font-family: var(--fonte-family-padrao);
-    background-color: var(--cor-fundo-destaque);
-    padding: var(--espacamento-padrao);
-    font-size: 1.5rem;
+/*
+p{
+    color:red;
+    width: 500px;
+    border: 1px solid red;
 }
-
-ul {
-    padding-left: 1rem;
-    list-style-type: none;
+*/
+body{
+ font-family: cursive;
+ 
 }
-ul li{
-    font-family:var(--fonte-family-padrao); 
+div{
+border: 15px outset;
+   text-align: center;
+  
 }
-article {
-    border: 2px solid var(--cor-fundo-destaque)
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#col{
+    column-count: 2; 
 }
-article section {
-    width: 270px;
-    border: 1px solid rgb(202, 41, 1);
-    box-sizing: border-box;
-    padding: var(--espacamento-padrao);
-    margin-bottom: 1rem;
-    border: 2px solid var(--cor-fundo-destaque);
-    padding: var(--espacamento-padrao);
+article{
+    display:block;
 }
-article section h2 {
-    color:var(--cor-frente-destaque);
-    font-family: var(--fonte-family-padrao);
-    background-color:var(--cor-fundo-destaque);
-    padding: var(--espacamento-padrao);
-    font-size: 1.5rem;
-    margin-top: 0;
+p, li, h1 {
+    color: rgb(21, 18, 230);
 }
-article section p {
-    font-family: var(--fonte-family-padrao);
+a{
+    color: darkorange;
 }
-
-footer p a {
-    display: inline-block;
-    padding: var(--espacamento-padrao);
-    background-color: rgb(17, 71, 1);
-    color:var(--cor-frente-destaque);
-    text-decoration:none;
-    border-radius: 0.5rem;
-    box-shadow: #999 4px 2px 4px 0px;
+header{
+    background-color: darkorchid;
 }
-@media only screen and (min-width: 768px){
-    article { 
-        display: flex;
-        flex-direction: row;
+em{
+    display: block;
+    border: 1px solid red;
     }
-    article section{
-       width: 48vw; 
-    }
-}

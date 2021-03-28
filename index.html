@@ -1,43 +1,171 @@
 <!DOCTYPE html>
-<html>
+<!-- Doctype
+    <!DOCTYPE html> informa ao navegador qual versão do HTML será usada neste documento. Neste caso, estamos declarando o HTML5. Doctype é especial no sentido de que ele não é considerado uma tag de verdade, mas sim uma declaração. 
+    O que você realmente precisa entender sobre esta tag/declaração é que ela deve estar presente, 
+    e deve estar especificamente na primeira linha do seu arquivo HTML.
+    -->
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minha Página de Receitas</title>
-        <link rel="stylesheet" href="style.css">
-        </head>
+        <title>Meus Site</title>
+        <link rel="stylesheet" href="style.css"> <!-- Chama o arquivo style.css -->
+    </head>
+
     <body>
-       <header>
-            <h1>Bolo de Cenoura</h1> 
-       <header>
-        <nav>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </nav>
-        <article>
-            <section>
-                <h2>Ingredientes</h2>
-                <ul> 
-                    <li>Farinha de Trigo</li>
-                    <li>Cenoura</li>
-                    <li>Ovos</li>
-                    <li>Cenoura</li>
+        <h1>Site em Manutenção!!!</h1>
+        <div id="col">
+            <p>queijo <em>muito</em> ditado</p>
+            <p>maça <cite>Carlos Drumond de Andrade!</cite></p>
+            <p>laranja</p>
+        </div>
+        <h2>Filmes de maior bilheteria (EUA)</h2>
+        <!--Lista ordenadas-->
+        <ol start="5">
+            <li>Hooper, o Homem das Mil façanhas</li>
+            <li>Tubarão 2</li>
+            <li>A Vingança da Pantera Cor-de-Rosa</li>
+            <li>O Franco Atirador</li>
+            <li>Halloween - O Início</li>
+        </ol>
+        <h2>Top 5</h2>
+        <ol reversed>
+            <li>O Paraiso Pode Esperar</li>
+            <li>Doido para Brigar... Louco para Amar</li>
+            <li>Clube dos Cafajestes</li>
+            <li>Superman</li>
+            <li>Grease — Nos Tempos da Brilhantina</li>
+        </ol>
+        <h2>Top 5</h2>
+        <ol reversed="reversed">
+            <li>O Paraíso Pode Esperar</li>
+            <li>Doido para Brigar... Louco para Amar</li>
+            <li>Clube dos Cafajestes</li>
+            <li>Superman</li>
+            <li>Grease — Nos Tempos da Brilhantina</li>
+        </ol>
+        <h1>Review de Roger Ebert's sobre Grease — Nos Tempos da Brilhantina</h1>
+        <ol type="I">
+            <li>Introdução</li>
+            <li>Elenco</li>
+            <li>Resumo do enredo</li>
+            <li>Pontos Fortes</li>
+            <li>Pontos Fracos</li>
+            <li>Conclusão</li>
+        </ol>
+        <h1>Filmes com a maioria dos prêmios da Academia</h1>
+        <ol>
+          <li>Ben-Hur (empate)</li>
+          <li value="1">Titanic (empate)</li>
+          <li value="1">O Retorno do Rei (empate)</li>
+          <li value="4">Amor, Sublime Amor</li>
+        </ol>
+        <h1>Review de Roger Ebert's sobre Grease — Nos Tempos da Brilhantina</h1>
+        <ol type="I">
+            <li>Introdução</li>
+            <li>Elenco
+                <ul> <!--lista não ordenada ul-->
+                <li>Olivia Newton-John</li>
+                <li>John Travolta</li>
                 </ul>
+            </li>
+            <li>Resumo do enredo</li>
+            <li>Pontos Fortes</li>
+            <li>Pontos Fracos</li>
+            <li>Conclusão</li>
+        </ol>
+        <h1>Review de Roger Ebert's sobre Grease — Nos Tempos da Brilhantina</h1>
+        <ol type="I">
+            <li>Introdução
+                <p><cite>Grease — Nos Tempos da Brilhantina</cite> vale a pena ver pela nostalfia, mas é apenas um musical mediano.</p>
+            </li>
+            <li>Elenco</li>
+            <li>Resumo do enredo</li>
+            <li>Pontos Fortes</li>
+            <li>Pontos Fracos</li>
+            <li>Conclusão</li>
+        </ol>
+<!--        <a href="https://www.google.com.br"> Site da Google</a> -->
+
+        <a href="#products">Produtos</a>
+        <h2 id="products">Nossos produtos</h2>
+
+        <h1>
+            <a href="https://kenzie.com.br/">Kenzie Academy Brasil</a>
+          </h1>
+          
+          <a href="https://kenzie.com.br/">
+            <h1>Kenzie Academy Brasil</h1>
+          </a>
+
+          <a href="https://kenzie.com.br/" target="_blank"> <!--Abre o Link em Uma nova Janela _blank-->
+            Kenzie Academy Brasil
+          </a>
+
+          <a
+        href="https://kenzie.com.br/"
+        target="_blank"
+        rel="noopener"
+        >
+        Kenzie Academy Brasil
+        </a>
+
+        <div>
+            <img
+            src="download2.jpg"
+            alt="Texto"
+            width="100"
+            height="100"
+            >
+        </div>
+        <h1>This is heading 1</h1>
+        <h2>Esse é um cabeçalho 2</h2>
+        <h3>Esse é um cabeçalho 3</h3>
+        <h4>Esse é um cabeçalho 4</h4>
+        <h5>Esse é um cabeçalho 5</h5>
+        <h6>Esse é um cabeçalho 6</h6>
+
+        <h1>Elementos de cabeçalho</h1>
+        <h2>Sumário</h2>
+        <p>Algum texto aqui...</p>
+
+        <h2>Exemplos</h2>
+        <h3>Exemplo 1</h3>
+        <p>Algum texto aqui...</p>
+
+        <h3>Exemplo 2</h3>
+        <p>Algum texto aqui...</p>
+
+        <h2>Veja também</h2>
+        <p>Algum texto aqui...</p>
+
+        <article>
+
+            <header>
+                <h1>A Primeira Regra da Vida</h1>
+                <p><time>3 dias atrás</time></p>
+            </header>
+          
+            <p>Se houver um microfone perto de você, assuma-o</p>
+          
+            <footer>
+              <a href="#">Mostrar comentários...</a>
+            </footer>
+          
+          </article>
+
+          <article>
+            <p>A maçã é o fruto da macieira.</p>
+            <section>
+             <h1>Maça vermelha</h1>
+             <p>Essas maças vermelhas brilhantes são as mais comumente encontradas na maioria dos supermercados.</p>
             </section>
             <section>
-                <h2>Modo de Preparo</h2>
-                <p>Eu sou um paragrafo. A cadelinha Lulu <a href="https://google.com.br/">gosta</a> de brincar de bola.</p>
-                <p>Eu sou um paragrafo. A cadelinha Lulu <a href="https://google.com.br/">gosta</a> de brincar de bola.</p>
-                <!-- <img src="https://picsum.photos/300/300" alt="Minha Foto">-->
+             <h1>Maça-verde</h1>
+             <p>Essas maças verdes e suculentas fazem um ótimo recheio para tortas de maça.</p>
             </section>
-        </article>
-        <footer>
-            <p>E não se esqueça de <a href="#">Comprar</a> agora</p>
-            <p>Eu sou um Paragrafo.</p>
-        </footer>
+           </article>
+        
     </body>
 </html>
